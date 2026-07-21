@@ -1,3 +1,6 @@
+*Portfolio project by Raj Mehta — Senior Business Analyst, 
+Capital One CLIP | Credit Risk Analytics*
+
 # Credit Strategy Champion/Challenger A/B Test
 
 ## Overview
