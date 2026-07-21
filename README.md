@@ -35,3 +35,11 @@ Python · pandas · scipy · matplotlib · seaborn · Jupyter Notebook
 ## Data
 Lending Club public loan dataset — 1.37M completed loans, 2007–2018
 Available at: kaggle.com/datasets/wordsforthewise/lending-club
+
+## Visualizations
+
+### Exploratory Analysis
+![Exploratory Analysis](exploratory_analysis.png)
+
+### A/B Test Results
+![AB Test Results](ab_test_results.png)
