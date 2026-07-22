@@ -46,3 +46,25 @@ Available at: kaggle.com/datasets/wordsforthewise/lending-club
 
 ### A/B Test Results
 ![AB Test Results](ab_test_results.png)
+
+
+## SQL Implementation
+
+A complete SQL version of the analysis is available across 
+four numbered query files, built on SQLite and compatible 
+with Snowflake, PostgreSQL, and BigQuery.
+
+| File | Purpose |
+|------|---------|
+| `01_exploratory_analysis.sql` | Portfolio baseline and FICO band analysis |
+| `02_strategy_view.sql` | Champion/challenger strategy view definition |
+| `03_ab_test_analysis.sql` | Volume, delinquency, and marginal population analysis |
+| `04_final_scorecard.sql` | Complete scorecard using CTEs — single query result |
+
+### Key SQL concepts demonstrated
+- CASE WHEN for strategy logic and segmentation
+- UNION ALL for side-by-side strategy comparison  
+- Subqueries for percentage calculations
+- CTEs (WITH clauses) for readable multi-step analysis
+- Aggregate functions: COUNT, SUM, AVG, ROUND
+- GROUP BY with ORDER BY for ranked analysis
